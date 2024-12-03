@@ -1,0 +1,45 @@
+
+2. Estructura recomendada para un proyecto de microservicios
+
+
+SIGIBLM-project/
+│
+├── frontend/               # Código del frontend
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── backend/                # Código para el backend principal (por ejemplo, servicio de autenticación)
+│   ├── auth-service/
+│   │   ├── src/
+│   │   ├── package.json
+│   │   └── ...
+│   ├── user-service/
+│   │   ├── src/
+│   │   ├── package.json
+│   │   └── ...
+│   └── order-service/
+│       ├── src/
+│       ├── package.json
+│       └── ...
+│
+├── shared/                 # Código compartido entre microservicios (librerías comunes, utilidades)
+│   └── utils/
+│       └── helpers.js
+│
+└── README.md
+
+
+
+
+
+
+4. Ejemplo de flujo de trabajo usando ramas
+
+SIGIBLM-project/
+├── frontend/
+├── backend/
+│   ├── auth-service/
+│   ├── user-service/
+│   └── order-service/
+└── shared/

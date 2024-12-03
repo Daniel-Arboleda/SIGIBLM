@@ -1,0 +1,39 @@
+C:\xampp\htdocs\SIGIBLM
+├── backend/
+│   ├── auth-service/
+│   │   ├── src/
+│   │   ├── tests/
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   ├── user-profile-service/
+│   │   ├── src/
+│   │   ├── tests/
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   ├── notification-service/
+│   │   ├── src/
+│   │   ├── tests/
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   ├── log-service/
+│   ├── chapa-service/
+│   ├── device-service/
+│   ├── inventory-service/
+│   ├── logistics-service/
+│   ├── analytics-service/
+│   └── gateway-service/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── styles/
+│   ├── public/
+│   ├── package.json
+│   └── webpack.config.js
+├── docker-compose.yml   # Configuración para contenerizar servicios
+├── README.md
+└── docs/
+    ├── architecture-diagram.png
+    ├── API-documentation/
+    └── microservices-overview.md

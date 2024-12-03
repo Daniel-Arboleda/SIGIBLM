@@ -1,0 +1,11 @@
+src/
+├── components/          # Componentes reutilizables (botones, formularios, tablas)
+├── pages/               # Páginas principales (IndexPage, LoginPage, etc.)
+├── services/            # Comunicación con APIs de microservicios
+│   ├── authService.js   # APIs relacionadas con autenticación
+│   ├── userService.js   # APIs relacionadas con perfiles de usuario
+│   ├── inventoryService.js # APIs relacionadas con inventario
+├── styles/              # Archivos CSS/SCSS
+├── utils/               # Funciones de utilidad (ej. manejo de errores, validaciones)
+├── App.jsx              # Componente principal de la app
+└── index.js             # Punto de entrada de React
